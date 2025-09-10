@@ -1,10 +1,10 @@
 const mysql = require("mysql2");
 
-// Configuracion de conexión a MySQL
+// Configuracion de conexion a MySQL
 const db = mysql.createConnection({
   host: "localhost",
-  user: "root",     // cambia si tu usuario es distinto
-  password: "",     // pon tu contraseña si tienes
+  user: "root",     // cambia si el usuario es distinto
+  password: "",     // se coloca contraseña si se tiene
   database: "tienda"
 });
 
