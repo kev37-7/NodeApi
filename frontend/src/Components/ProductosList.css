@@ -1,0 +1,108 @@
+.productos-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 24px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  border-radius: 20px;
+  color: #333;
+  font-family: 'Inter', sans-serif;
+}
+
+.productos-header {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.titulo {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #2d3748;
+}
+
+.estadisticas {
+  display: flex;
+  justify-content: space-around;
+}
+
+.estadistica {
+  background: #f1f5f9;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.formulario-container {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.formulario {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.formulario input {
+  padding: 10px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+}
+
+.error {
+  background: #fed7d7;
+  color: #c53030;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.btn.agregar { background: #38a169; }
+.btn.actualizar { background: #3182ce; }
+.btn.cancelar { background: #718096; }
+.btn.editar { background: #3182ce; }
+.btn.eliminar { background: #e53e3e; }
+
+.lista-container {
+  background: white;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.lista-productos {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.producto-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+}
+
+.acciones {
+  display: flex;
+  gap: 8px;
+}
